@@ -1,3 +1,7 @@
+-- Drop tables if they exist to start fresh
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS customers;
+
 -- Schema for a simple e-commerce database
 CREATE TABLE customers (
     customer_id INTEGER PRIMARY KEY,
